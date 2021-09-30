@@ -49,6 +49,8 @@ navbar section
 .container ul li {
     padding: 0 10px;
     font-size: 15px;
+    border: 1px dashed burlywood;
+    margin: 0 10px;
 }
 
 
@@ -141,4 +143,102 @@ about section
     justify-content: center;
     font-size: 50px;
     text-transform: capitalize;
+}
+
+.about-section img {
+    display: flex;
+    width: 250px;
+    border: 1px solid brown;
+    margin: 10px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+.about-section .container p {
+    border: 1px dashed gray;
+    margin: 10px;
+    display: inline-flex;
+}
+
+.about-section .container .introduction {
+    border: 1px solid green;
+    font-weight: 500;
+    font-size: 25px;
+    position: relative;
+    top: -400px;
+    left: 450px;
+    width: 50%;
+}
+
+.about-section .container .intro-para {
+    border: 1px solid green;
+    font-weight: 500;
+    font-size: 15px;
+    width: 55%;
+    position: relative;
+    top: -400px;
+    left: 450px;
+}
+
+.about-section .contact-btn {
+    border: 1px solid black;
+    display: inline-flex;
+    width: 180px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -350px;
+    left: 460px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.about-section .project-btn {
+    border: 1px solid black;
+    display: inline-flex;
+    width: 180px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -350px;
+    left: 460px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+
+/* --------------
+contact section
+--------------- */
+
+.contact-section h1 {
+    border: 1px solid blue;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.contact-section form {
+    border: 1px solid salmon;
+    margin: 10px;
+    display: block;
+}
+
+.contact-section form div {
+    display: flex;
+    padding: 10px 10px;
+}
+
+.contact-section form.textarea {
+    display: flex;
+    padding: 10px 10px;
+    margin: 10px;
+    height: 120px;
+    width: 280px;
+    resize: none;
 }
