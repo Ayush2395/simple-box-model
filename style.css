@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "JetBrains Mono";
+}
+
+.container {
+    min-height: 100vh;
+    border: 1px solid red;
+}
+
+.container header {
+    border: 1px solid blue;
+    position: relative;
+    height: 50px;
+    margin: 10px;
+}
+
+.container header span {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: "JetBrains Mono";
+}
+
+
+/* -----------
+navbar section
+------------- */
+
+.container nav {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container ul li {
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+
+/* -----------
+article section
+------------- */
+
+article {
+    width: calc(100% - 500px);
+}
+
+.container .article-1 h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    border: 1px solid blue;
+    margin: 5px;
+}
+
+.container .article-1 {
+    border: 1px solid hotpink;
+    margin: 10px;
+}
+
+.container .article-2 h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    border: 1px solid blue;
+    margin: 5px;
+}
+
+.container .article-2 {
+    border: 1px solid hotpink;
+    margin: 10px;
+}
+
+.container .article-1 p {
+    border: 1px dashed maroon;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.container .article-2 p {
+    border: 1px dashed maroon;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.container aside {
+    border: 1px solid pink;
+    display: block;
+    height: calc(74.2% - 90px);
+    position: absolute;
+    right: 50px;
+    top: 135px;
+    width: calc(30% - 70px);
+}
+
+.container aside span {
+    display: grid;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+    border: 1px dashed red;
+    border-radius: 15px;
+}
+
+.container footer {
+    display: inline-block;
+    border: 1px solid blueviolet;
+    position: absolute;
+    bottom: 10px;
+    left: 600px;
+}
+
+.container footer span {
+    border: 1px dashed orange;
+}
+
+
+/* ------------
+about section
+--------------- */
+
+.about-section h1 {
+    border: 1px solid blue;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-transform: capitalize;
+}
